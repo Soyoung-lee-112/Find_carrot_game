@@ -43,6 +43,7 @@ body{
     background-color: white;
     border: 4px solid #232323;
     border-radius: 20px;
+    visibility: hidden;
 }
 .game__score{
     width: 50px;
@@ -54,11 +55,13 @@ body{
     background-color: darksalmon;
     border: 4px solid #232323;
     border-radius: 50px;
+    visibility: hidden;
 }
 .game__field{
+    position: relative;
     width: 100%;
     height: 100%;
-    margin-top:40px;opacity: 0.4;
+    margin-top:40px;
 }
 .pop-up{
     display: block;
