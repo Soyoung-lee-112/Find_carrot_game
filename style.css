@@ -5,6 +5,7 @@ button{
 }
 body{
     text-align: center;
+    background-color: #ffa343;
 }
 .game{
     display: flex;
